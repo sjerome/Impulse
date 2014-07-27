@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #define serverURL @"http://10.0.0.14:3000/"
+#define userID [[NSUserDefaults standardUserDefaults] objectForKey:@"userID"]
+#define kPhoneNumber [[NSUserDefaults standardUserDefaults] objectForKey:@"phoneNumber"]
+
 
 @interface IPConstants : NSObject
 

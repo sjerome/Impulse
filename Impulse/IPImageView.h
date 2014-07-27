@@ -12,4 +12,5 @@
 @property (nonatomic, strong) NSString *price;
 @property (nonatomic,strong) NSString *postID;
 @property (nonatomic, strong) IBOutlet UILabel *priceLabel;
+@property (nonatomic, strong) NSString *phoneNumber;
 @end

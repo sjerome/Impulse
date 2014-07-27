@@ -33,6 +33,7 @@ static CGPoint original;
                                                     otherButtonTitles: nil];
         
         [myAlertView show];
+        [self.takePhotoButton setEnabled:NO];
         
     }
     
@@ -178,7 +179,7 @@ static CGPoint original;
     NSData *data = UIImagePNGRepresentation(_imageView.image);
 
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    NSDictionary *parameters = @{@"price": finalPrice, @"user_id":@"53d4af8910c0ae7512000004"};
+    NSDictionary *parameters = @{@"price": finalPrice, @"user_id":userID, @"phone_number": kPhoneNumber};
     [manager POST:[NSString stringWithFormat:@"%@%@", serverURL, @"api/v1/posts"] parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         [formData appendPartWithFileData:data name:@"image" fileName:@"file" mimeType:@"image/png"];
     } success:^(AFHTTPRequestOperation *operation, id responseObject) {

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IPOpeningViewController : UIViewController
+@interface IPOpeningViewController : UIViewController <UITextFieldDelegate>
 
 @end

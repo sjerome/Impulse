@@ -25,12 +25,8 @@
 		52563FE41984B0E5004F400B /* IPOpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FE31984B0E5004F400B /* IPOpeningViewController.m */; };
 		52563FE71984B24D004F400B /* impulse_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FE61984B24D004F400B /* impulse_logo.png */; };
 		52563FE91984B2D2004F400B /* btn_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FE81984B2D2004F400B /* btn_facebook.png */; };
-		52563FEB1984C393004F400B /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEA1984C393004F400B /* imgres.jpg */; };
 		52563FED1984C3D8004F400B /* btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEC1984C3D8004F400B /* btn_cancel.png */; };
 		52563FEF1984C3EC004F400B /* btn_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEE1984C3EC004F400B /* btn_buy.png */; };
-		52563FF11984C891004F400B /* url.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF01984C891004F400B /* url.jpg */; };
-		52563FF31984CA52004F400B /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF21984CA52004F400B /* imgres-1.jpg */; };
-		52563FF51984CA57004F400B /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF41984CA57004F400B /* imgres-2.jpg */; };
 		52563FF81984D8CB004F400B /* IPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FF71984D8CB004F400B /* IPConstants.m */; };
 		5256400D1984DEE7004F400B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FFB1984DEE7004F400B /* AFHTTPRequestOperation.m */; };
 		5256400E1984DEE7004F400B /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FFD1984DEE7004F400B /* AFHTTPRequestOperationManager.m */; };
@@ -42,6 +38,13 @@
 		525640141984DEE7004F400B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256400A1984DEE7004F400B /* AFURLResponseSerialization.m */; };
 		525640151984DEE7004F400B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256400C1984DEE7004F400B /* AFURLSessionManager.m */; };
 		5256401819850123004F400B /* IPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256401719850123004F400B /* IPImageView.m */; };
+		526799A419857526002FAFDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526799A319857526002FAFDA /* CoreLocation.framework */; };
+		526799A619858F28002FAFDA /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799A519858F28002FAFDA /* imgres-2.jpg */; };
+		526799A8198590F4002FAFDA /* KEURIG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799A7198590F4002FAFDA /* KEURIG.jpg */; };
+		526799AA19859126002FAFDA /* imgres-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799A919859126002FAFDA /* imgres-3.jpg */; };
+		526799AC1985918D002FAFDA /* imgres-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AB1985918D002FAFDA /* imgres-4.jpg */; };
+		526799AE198591AC002FAFDA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AD198591AC002FAFDA /* images.jpg */; };
+		526799B0198591E6002FAFDA /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AF198591E6002FAFDA /* images-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,12 +83,8 @@
 		52563FE31984B0E5004F400B /* IPOpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPOpeningViewController.m; sourceTree = "<group>"; };
 		52563FE61984B24D004F400B /* impulse_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = impulse_logo.png; sourceTree = "<group>"; };
 		52563FE81984B2D2004F400B /* btn_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook.png; sourceTree = "<group>"; };
-		52563FEA1984C393004F400B /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
 		52563FEC1984C3D8004F400B /* btn_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel.png; sourceTree = "<group>"; };
 		52563FEE1984C3EC004F400B /* btn_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_buy.png; sourceTree = "<group>"; };
-		52563FF01984C891004F400B /* url.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url.jpg; sourceTree = "<group>"; };
-		52563FF21984CA52004F400B /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
-		52563FF41984CA57004F400B /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
 		52563FF61984D8CB004F400B /* IPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPConstants.h; sourceTree = "<group>"; };
 		52563FF71984D8CB004F400B /* IPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPConstants.m; sourceTree = "<group>"; };
 		52563FFA1984DEE7004F400B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -109,6 +108,13 @@
 		5256400C1984DEE7004F400B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		5256401619850123004F400B /* IPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPImageView.h; sourceTree = "<group>"; };
 		5256401719850123004F400B /* IPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPImageView.m; sourceTree = "<group>"; };
+		526799A319857526002FAFDA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		526799A519858F28002FAFDA /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
+		526799A7198590F4002FAFDA /* KEURIG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KEURIG.jpg; sourceTree = "<group>"; };
+		526799A919859126002FAFDA /* imgres-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-3.jpg"; sourceTree = "<group>"; };
+		526799AB1985918D002FAFDA /* imgres-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-4.jpg"; sourceTree = "<group>"; };
+		526799AD198591AC002FAFDA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		526799AF198591E6002FAFDA /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526799A419857526002FAFDA /* CoreLocation.framework in Frameworks */,
 				52563FAA1984B086004F400B /* CoreGraphics.framework in Frameworks */,
 				52563FAC1984B086004F400B /* UIKit.framework in Frameworks */,
 				52563FA81984B086004F400B /* Foundation.framework in Frameworks */,
@@ -157,6 +164,7 @@
 		52563FA61984B086004F400B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				526799A319857526002FAFDA /* CoreLocation.framework */,
 				52563FA71984B086004F400B /* Foundation.framework */,
 				52563FA91984B086004F400B /* CoreGraphics.framework */,
 				52563FAB1984B086004F400B /* UIKit.framework */,
@@ -221,12 +229,14 @@
 		52563FE51984B23A004F400B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				52563FF01984C891004F400B /* url.jpg */,
+				526799AF198591E6002FAFDA /* images-1.jpg */,
+				526799AD198591AC002FAFDA /* images.jpg */,
+				526799AB1985918D002FAFDA /* imgres-4.jpg */,
+				526799A919859126002FAFDA /* imgres-3.jpg */,
+				526799A7198590F4002FAFDA /* KEURIG.jpg */,
+				526799A519858F28002FAFDA /* imgres-2.jpg */,
 				52563FEE1984C3EC004F400B /* btn_buy.png */,
 				52563FEC1984C3D8004F400B /* btn_cancel.png */,
-				52563FEA1984C393004F400B /* imgres.jpg */,
-				52563FF21984CA52004F400B /* imgres-1.jpg */,
-				52563FF41984CA57004F400B /* imgres-2.jpg */,
 				52563FE61984B24D004F400B /* impulse_logo.png */,
 				52563FE81984B2D2004F400B /* btn_facebook.png */,
 			);
@@ -336,17 +346,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526799AA19859126002FAFDA /* imgres-3.jpg in Resources */,
 				52563FEF1984C3EC004F400B /* btn_buy.png in Resources */,
-				52563FEB1984C393004F400B /* imgres.jpg in Resources */,
-				52563FF31984CA52004F400B /* imgres-1.jpg in Resources */,
 				52563FED1984C3D8004F400B /* btn_cancel.png in Resources */,
-				52563FF51984CA57004F400B /* imgres-2.jpg in Resources */,
+				526799A619858F28002FAFDA /* imgres-2.jpg in Resources */,
 				52563FC61984B086004F400B /* Images.xcassets in Resources */,
 				52563FBB1984B086004F400B /* Main_iPhone.storyboard in Resources */,
+				526799B0198591E6002FAFDA /* images-1.jpg in Resources */,
+				526799A8198590F4002FAFDA /* KEURIG.jpg in Resources */,
 				52563FE71984B24D004F400B /* impulse_logo.png in Resources */,
-				52563FF11984C891004F400B /* url.jpg in Resources */,
 				52563FE91984B2D2004F400B /* btn_facebook.png in Resources */,
 				52563FB21984B086004F400B /* InfoPlist.strings in Resources */,
+				526799AC1985918D002FAFDA /* imgres-4.jpg in Resources */,
+				526799AE198591AC002FAFDA /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +599,7 @@
 				52563FDE1984B086004F400B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52563FDF1984B086004F400B /* Build configuration list for PBXNativeTarget "ImpulseTests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +608,7 @@
 				52563FE11984B086004F400B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface IPFirstViewController : UIViewController
+@interface IPFirstViewController : UIViewController <CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;
+}
 
 @end
