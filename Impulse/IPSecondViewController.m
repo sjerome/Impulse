@@ -191,7 +191,8 @@ static CGPoint original;
         [indicator removeFromSuperview];
         
         [self.uploadButton setEnabled:YES];
-        
+        [[[UIAlertView alloc] initWithTitle:@"Success!" message:@"Uploaded Image" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+        self.tabBarController.selectedIndex = 0;
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         [self.uploadButton setEnabled:YES];
         [indicator removeFromSuperview];

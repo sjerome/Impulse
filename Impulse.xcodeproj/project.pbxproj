@@ -46,6 +46,7 @@
 		526799AE198591AC002FAFDA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AD198591AC002FAFDA /* images.jpg */; };
 		526799B0198591E6002FAFDA /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AF198591E6002FAFDA /* images-1.jpg */; };
 		FEBF00FF1985A59C00341E08 /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEBF00FE1985A59C00341E08 /* shoes.jpg */; };
+		FEBF01011985A91700341E08 /* btn_login.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBF01001985A91700341E08 /* btn_login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		526799AD198591AC002FAFDA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		526799AF198591E6002FAFDA /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
 		FEBF00FE1985A59C00341E08 /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
+		FEBF01001985A91700341E08 /* btn_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 		52563FE51984B23A004F400B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF01001985A91700341E08 /* btn_login.png */,
 				FEBF00FE1985A59C00341E08 /* shoes.jpg */,
 				526799AF198591E6002FAFDA /* images-1.jpg */,
 				526799AD198591AC002FAFDA /* images.jpg */,
@@ -364,6 +367,7 @@
 				52563FE71984B24D004F400B /* impulse_logo.png in Resources */,
 				52563FE91984B2D2004F400B /* btn_facebook.png in Resources */,
 				52563FB21984B086004F400B /* InfoPlist.strings in Resources */,
+				FEBF01011985A91700341E08 /* btn_login.png in Resources */,
 				526799AC1985918D002FAFDA /* imgres-4.jpg in Resources */,
 				526799AE198591AC002FAFDA /* images.jpg in Resources */,
 			);

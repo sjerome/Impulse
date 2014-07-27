@@ -33,7 +33,7 @@
     numberToolbar.items = [NSArray arrayWithObjects:
                            [[UIBarButtonItem alloc]initWithTitle:@"Cancel" style:UIBarButtonItemStyleBordered target:self action:@selector(cancelToolbarPressed:)],
                            [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil],
-                           [[UIBarButtonItem alloc]initWithTitle:@"Done!" style:UIBarButtonItemStyleDone target:self action:@selector(donePressed:)],
+                           [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(cancelToolbarPressed:)],
                            nil];
     [numberToolbar sizeToFit];
     self.phoneNumber.inputAccessoryView = numberToolbar;
