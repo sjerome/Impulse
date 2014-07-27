@@ -45,6 +45,7 @@
 		526799AC1985918D002FAFDA /* imgres-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AB1985918D002FAFDA /* imgres-4.jpg */; };
 		526799AE198591AC002FAFDA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AD198591AC002FAFDA /* images.jpg */; };
 		526799B0198591E6002FAFDA /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526799AF198591E6002FAFDA /* images-1.jpg */; };
+		FEBF00FF1985A59C00341E08 /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEBF00FE1985A59C00341E08 /* shoes.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		526799AB1985918D002FAFDA /* imgres-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-4.jpg"; sourceTree = "<group>"; };
 		526799AD198591AC002FAFDA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		526799AF198591E6002FAFDA /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		FEBF00FE1985A59C00341E08 /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 		52563FE51984B23A004F400B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF00FE1985A59C00341E08 /* shoes.jpg */,
 				526799AF198591E6002FAFDA /* images-1.jpg */,
 				526799AD198591AC002FAFDA /* images.jpg */,
 				526799AB1985918D002FAFDA /* imgres-4.jpg */,
@@ -353,6 +356,7 @@
 				52563FEF1984C3EC004F400B /* btn_buy.png in Resources */,
 				52563FED1984C3D8004F400B /* btn_cancel.png in Resources */,
 				526799A619858F28002FAFDA /* imgres-2.jpg in Resources */,
+				FEBF00FF1985A59C00341E08 /* shoes.jpg in Resources */,
 				52563FC61984B086004F400B /* Images.xcassets in Resources */,
 				52563FBB1984B086004F400B /* Main_iPhone.storyboard in Resources */,
 				526799B0198591E6002FAFDA /* images-1.jpg in Resources */,

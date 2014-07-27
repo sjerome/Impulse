@@ -104,7 +104,7 @@
                                     <action selector="takePhoto:" destination="QUy-BD-bpt" eventType="touchUpInside" id="M4h-Ee-0yK"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WuT-5L-VlH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoes.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WuT-5L-VlH">
                                 <rect key="frame" x="8" y="26" width="305" height="305"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -216,10 +216,10 @@
         <image name="btn_cancel.png" width="152" height="152"/>
         <image name="btn_facebook.png" width="202" height="201"/>
         <image name="first" width="30" height="30"/>
-        <image name="images-1.jpg" width="259" height="194"/>
         <image name="imgres-3.jpg" width="225" height="225"/>
         <image name="impulse_logo.png" width="469" height="201"/>
         <image name="second" width="30" height="30"/>
+        <image name="shoes.jpg" width="225" height="225"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
