@@ -14,7 +14,6 @@
 		52563FB41984B086004F400B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FB31984B086004F400B /* main.m */; };
 		52563FB81984B086004F400B /* IPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FB71984B086004F400B /* IPAppDelegate.m */; };
 		52563FBB1984B086004F400B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52563FB91984B086004F400B /* Main_iPhone.storyboard */; };
-		52563FBE1984B086004F400B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52563FBC1984B086004F400B /* Main_iPad.storyboard */; };
 		52563FC11984B086004F400B /* IPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FC01984B086004F400B /* IPFirstViewController.m */; };
 		52563FC41984B086004F400B /* IPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FC31984B086004F400B /* IPSecondViewController.m */; };
 		52563FC61984B086004F400B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52563FC51984B086004F400B /* Images.xcassets */; };
@@ -23,6 +22,26 @@
 		52563FCF1984B086004F400B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52563FAB1984B086004F400B /* UIKit.framework */; };
 		52563FD71984B086004F400B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52563FD51984B086004F400B /* InfoPlist.strings */; };
 		52563FD91984B086004F400B /* ImpulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FD81984B086004F400B /* ImpulseTests.m */; };
+		52563FE41984B0E5004F400B /* IPOpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FE31984B0E5004F400B /* IPOpeningViewController.m */; };
+		52563FE71984B24D004F400B /* impulse_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FE61984B24D004F400B /* impulse_logo.png */; };
+		52563FE91984B2D2004F400B /* btn_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FE81984B2D2004F400B /* btn_facebook.png */; };
+		52563FEB1984C393004F400B /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEA1984C393004F400B /* imgres.jpg */; };
+		52563FED1984C3D8004F400B /* btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEC1984C3D8004F400B /* btn_cancel.png */; };
+		52563FEF1984C3EC004F400B /* btn_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52563FEE1984C3EC004F400B /* btn_buy.png */; };
+		52563FF11984C891004F400B /* url.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF01984C891004F400B /* url.jpg */; };
+		52563FF31984CA52004F400B /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF21984CA52004F400B /* imgres-1.jpg */; };
+		52563FF51984CA57004F400B /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52563FF41984CA57004F400B /* imgres-2.jpg */; };
+		52563FF81984D8CB004F400B /* IPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FF71984D8CB004F400B /* IPConstants.m */; };
+		5256400D1984DEE7004F400B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FFB1984DEE7004F400B /* AFHTTPRequestOperation.m */; };
+		5256400E1984DEE7004F400B /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FFD1984DEE7004F400B /* AFHTTPRequestOperationManager.m */; };
+		5256400F1984DEE7004F400B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52563FFF1984DEE7004F400B /* AFHTTPSessionManager.m */; };
+		525640101984DEE7004F400B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 525640021984DEE7004F400B /* AFNetworkReachabilityManager.m */; };
+		525640111984DEE7004F400B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 525640041984DEE7004F400B /* AFSecurityPolicy.m */; };
+		525640121984DEE7004F400B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 525640061984DEE7004F400B /* AFURLConnectionOperation.m */; };
+		525640131984DEE7004F400B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 525640081984DEE7004F400B /* AFURLRequestSerialization.m */; };
+		525640141984DEE7004F400B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256400A1984DEE7004F400B /* AFURLResponseSerialization.m */; };
+		525640151984DEE7004F400B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256400C1984DEE7004F400B /* AFURLSessionManager.m */; };
+		5256401819850123004F400B /* IPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256401719850123004F400B /* IPImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +66,6 @@
 		52563FB61984B086004F400B /* IPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAppDelegate.h; sourceTree = "<group>"; };
 		52563FB71984B086004F400B /* IPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAppDelegate.m; sourceTree = "<group>"; };
 		52563FBA1984B086004F400B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		52563FBD1984B086004F400B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		52563FBF1984B086004F400B /* IPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPFirstViewController.h; sourceTree = "<group>"; };
 		52563FC01984B086004F400B /* IPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPFirstViewController.m; sourceTree = "<group>"; };
 		52563FC21984B086004F400B /* IPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPSecondViewController.h; sourceTree = "<group>"; };
@@ -58,6 +76,39 @@
 		52563FD41984B086004F400B /* ImpulseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImpulseTests-Info.plist"; sourceTree = "<group>"; };
 		52563FD61984B086004F400B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52563FD81984B086004F400B /* ImpulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImpulseTests.m; sourceTree = "<group>"; };
+		52563FE21984B0E5004F400B /* IPOpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPOpeningViewController.h; sourceTree = "<group>"; };
+		52563FE31984B0E5004F400B /* IPOpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPOpeningViewController.m; sourceTree = "<group>"; };
+		52563FE61984B24D004F400B /* impulse_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = impulse_logo.png; sourceTree = "<group>"; };
+		52563FE81984B2D2004F400B /* btn_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook.png; sourceTree = "<group>"; };
+		52563FEA1984C393004F400B /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		52563FEC1984C3D8004F400B /* btn_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel.png; sourceTree = "<group>"; };
+		52563FEE1984C3EC004F400B /* btn_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_buy.png; sourceTree = "<group>"; };
+		52563FF01984C891004F400B /* url.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url.jpg; sourceTree = "<group>"; };
+		52563FF21984CA52004F400B /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
+		52563FF41984CA57004F400B /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
+		52563FF61984D8CB004F400B /* IPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPConstants.h; sourceTree = "<group>"; };
+		52563FF71984D8CB004F400B /* IPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPConstants.m; sourceTree = "<group>"; };
+		52563FFA1984DEE7004F400B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		52563FFB1984DEE7004F400B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		52563FFC1984DEE7004F400B /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		52563FFD1984DEE7004F400B /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		52563FFE1984DEE7004F400B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		52563FFF1984DEE7004F400B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		525640001984DEE7004F400B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		525640011984DEE7004F400B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		525640021984DEE7004F400B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		525640031984DEE7004F400B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		525640041984DEE7004F400B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		525640051984DEE7004F400B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		525640061984DEE7004F400B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		525640071984DEE7004F400B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		525640081984DEE7004F400B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		525640091984DEE7004F400B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		5256400A1984DEE7004F400B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5256400B1984DEE7004F400B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		5256400C1984DEE7004F400B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		5256401619850123004F400B /* IPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPImageView.h; sourceTree = "<group>"; };
+		5256401719850123004F400B /* IPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +171,18 @@
 				52563FB61984B086004F400B /* IPAppDelegate.h */,
 				52563FB71984B086004F400B /* IPAppDelegate.m */,
 				52563FB91984B086004F400B /* Main_iPhone.storyboard */,
-				52563FBC1984B086004F400B /* Main_iPad.storyboard */,
+				52563FE21984B0E5004F400B /* IPOpeningViewController.h */,
+				52563FE31984B0E5004F400B /* IPOpeningViewController.m */,
 				52563FBF1984B086004F400B /* IPFirstViewController.h */,
 				52563FC01984B086004F400B /* IPFirstViewController.m */,
+				5256401619850123004F400B /* IPImageView.h */,
+				5256401719850123004F400B /* IPImageView.m */,
 				52563FC21984B086004F400B /* IPSecondViewController.h */,
 				52563FC31984B086004F400B /* IPSecondViewController.m */,
+				52563FF61984D8CB004F400B /* IPConstants.h */,
+				52563FF71984D8CB004F400B /* IPConstants.m */,
 				52563FC51984B086004F400B /* Images.xcassets */,
+				52563FE51984B23A004F400B /* Images */,
 				52563FAE1984B086004F400B /* Supporting Files */,
 			);
 			path = Impulse;
@@ -134,6 +191,7 @@
 		52563FAE1984B086004F400B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52563FF91984DEE7004F400B /* AFNetworking */,
 				52563FAF1984B086004F400B /* Impulse-Info.plist */,
 				52563FB01984B086004F400B /* InfoPlist.strings */,
 				52563FB31984B086004F400B /* main.m */,
@@ -158,6 +216,47 @@
 				52563FD51984B086004F400B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52563FE51984B23A004F400B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				52563FF01984C891004F400B /* url.jpg */,
+				52563FEE1984C3EC004F400B /* btn_buy.png */,
+				52563FEC1984C3D8004F400B /* btn_cancel.png */,
+				52563FEA1984C393004F400B /* imgres.jpg */,
+				52563FF21984CA52004F400B /* imgres-1.jpg */,
+				52563FF41984CA57004F400B /* imgres-2.jpg */,
+				52563FE61984B24D004F400B /* impulse_logo.png */,
+				52563FE81984B2D2004F400B /* btn_facebook.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		52563FF91984DEE7004F400B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				52563FFA1984DEE7004F400B /* AFHTTPRequestOperation.h */,
+				52563FFB1984DEE7004F400B /* AFHTTPRequestOperation.m */,
+				52563FFC1984DEE7004F400B /* AFHTTPRequestOperationManager.h */,
+				52563FFD1984DEE7004F400B /* AFHTTPRequestOperationManager.m */,
+				52563FFE1984DEE7004F400B /* AFHTTPSessionManager.h */,
+				52563FFF1984DEE7004F400B /* AFHTTPSessionManager.m */,
+				525640001984DEE7004F400B /* AFNetworking.h */,
+				525640011984DEE7004F400B /* AFNetworkReachabilityManager.h */,
+				525640021984DEE7004F400B /* AFNetworkReachabilityManager.m */,
+				525640031984DEE7004F400B /* AFSecurityPolicy.h */,
+				525640041984DEE7004F400B /* AFSecurityPolicy.m */,
+				525640051984DEE7004F400B /* AFURLConnectionOperation.h */,
+				525640061984DEE7004F400B /* AFURLConnectionOperation.m */,
+				525640071984DEE7004F400B /* AFURLRequestSerialization.h */,
+				525640081984DEE7004F400B /* AFURLRequestSerialization.m */,
+				525640091984DEE7004F400B /* AFURLResponseSerialization.h */,
+				5256400A1984DEE7004F400B /* AFURLResponseSerialization.m */,
+				5256400B1984DEE7004F400B /* AFURLSessionManager.h */,
+				5256400C1984DEE7004F400B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +336,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52563FBE1984B086004F400B /* Main_iPad.storyboard in Resources */,
+				52563FEF1984C3EC004F400B /* btn_buy.png in Resources */,
+				52563FEB1984C393004F400B /* imgres.jpg in Resources */,
+				52563FF31984CA52004F400B /* imgres-1.jpg in Resources */,
+				52563FED1984C3D8004F400B /* btn_cancel.png in Resources */,
+				52563FF51984CA57004F400B /* imgres-2.jpg in Resources */,
 				52563FC61984B086004F400B /* Images.xcassets in Resources */,
 				52563FBB1984B086004F400B /* Main_iPhone.storyboard in Resources */,
+				52563FE71984B24D004F400B /* impulse_logo.png in Resources */,
+				52563FF11984C891004F400B /* url.jpg in Resources */,
+				52563FE91984B2D2004F400B /* btn_facebook.png in Resources */,
 				52563FB21984B086004F400B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +365,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525640151984DEE7004F400B /* AFURLSessionManager.m in Sources */,
+				52563FF81984D8CB004F400B /* IPConstants.m in Sources */,
 				52563FC11984B086004F400B /* IPFirstViewController.m in Sources */,
+				525640101984DEE7004F400B /* AFNetworkReachabilityManager.m in Sources */,
 				52563FB41984B086004F400B /* main.m in Sources */,
+				525640121984DEE7004F400B /* AFURLConnectionOperation.m in Sources */,
+				5256400F1984DEE7004F400B /* AFHTTPSessionManager.m in Sources */,
+				525640131984DEE7004F400B /* AFURLRequestSerialization.m in Sources */,
 				52563FB81984B086004F400B /* IPAppDelegate.m in Sources */,
 				52563FC41984B086004F400B /* IPSecondViewController.m in Sources */,
+				52563FE41984B0E5004F400B /* IPOpeningViewController.m in Sources */,
+				5256400E1984DEE7004F400B /* AFHTTPRequestOperationManager.m in Sources */,
+				525640111984DEE7004F400B /* AFSecurityPolicy.m in Sources */,
+				525640141984DEE7004F400B /* AFURLResponseSerialization.m in Sources */,
+				5256400D1984DEE7004F400B /* AFHTTPRequestOperation.m in Sources */,
+				5256401819850123004F400B /* IPImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +417,6 @@
 				52563FBA1984B086004F400B /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		52563FBC1984B086004F400B /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52563FBD1984B086004F400B /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		52563FD51984B086004F400B /* InfoPlist.strings */ = {

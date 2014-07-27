@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IPSecondViewController : UIViewController
+@interface IPSecondViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
+- (IBAction)selectPhoto:(UIButton *)sender;
 @end
