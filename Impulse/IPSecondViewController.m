@@ -48,6 +48,9 @@ static CGPoint original;
     self.price.delegate = self;
     original = _price.center;
     
+    self.imageView.layer.cornerRadius = 10;
+    [self.imageView.layer setMasksToBounds:YES];
+    
     self.selectButton.layer.cornerRadius =10;
     self.takePhotoButton.layer.cornerRadius = 10;
     self.uploadButton.layer.cornerRadius = 10;

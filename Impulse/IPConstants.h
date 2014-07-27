@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #define serverURL @"http://10.0.0.14:3000/"
+//#define serverURL @"http://cryptic-fortress-4080.herokuapp.com/"
 #define userID [[NSUserDefaults standardUserDefaults] objectForKey:@"userID"]
 #define kPhoneNumber [[NSUserDefaults standardUserDefaults] objectForKey:@"phoneNumber"]
 
